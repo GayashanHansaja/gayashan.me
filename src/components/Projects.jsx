@@ -8,7 +8,7 @@ const Projects = () => {
       {PROJECTS.map((project, index) => (
         <div 
           key={index} 
-          className={`flex flex-col  mb-10 ${
+          className={`flex flex-col  mb-5 ${
             index % 2===0 ? 'lg:flex-row ': 'lg:flex-row-reverse'
           } items-start gap-22 max-w-8xl mx-auto py-16`}
           >

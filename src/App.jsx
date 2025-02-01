@@ -4,6 +4,7 @@ import Abexre from './components/Abexre'
 import Testimony from './components/Testimony'
 import Technologies from './components/technologies'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Testimony />
       <Technologies />
       <Projects />
+      <Footer />
     </div>
   )
 }

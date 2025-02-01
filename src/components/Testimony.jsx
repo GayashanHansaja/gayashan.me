@@ -10,7 +10,7 @@ const Testimony = () => {
         whileInView={{opacity:1, x:0}}
         transition={{duration:0.8}} className="max-w-4xl mx-auto text-center">
         <blockquote className="text-xl font-light leading-relaxed">
-          <span className="text-4xl font-bold">“</span> 
+          <span className=" font- text-4xl font-bold">“</span> 
           As a designer, I take a very pragmatic and data-informed approach to problem-solving. 
           I like to understand key business goals, metrics that the team cares about, and 
           ultimately think about how they shape the roadmap and the reasons/purposes behind my 

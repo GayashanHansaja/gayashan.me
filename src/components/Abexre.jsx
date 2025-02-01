@@ -1,5 +1,5 @@
 import React from 'react'
-import { HERO_CONTENT } from '../constants'
+import { ABOUT_TEXT, HERO_CONTENT } from '../constants'
 import profile from '../assets/kevinRushProfile.jpg'
 import { motion } from 'framer-motion'
 const Abexre = () => {
@@ -17,7 +17,7 @@ const Abexre = () => {
                         className='flex flex-col items-center lg:items-start '>
                         <h1 className='pb-6 text-xl font-thin tracking-tight lg:text-7xl text-blue-100'>ABOUT ME</h1>
                         
-                        <p className=' text-blue-100'>{HERO_CONTENT}</p>
+                        <p className=' text-blue-100'>{ABOUT_TEXT}</p>
                     </motion.div>
                 </div>
     {/* middle */}
