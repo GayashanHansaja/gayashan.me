@@ -15,7 +15,7 @@ const Abexre = () => {
                         /* animate={{x:0, opacity:1}} */
                         transition={{duration:0.6}}
                         className='flex flex-col items-center lg:items-start '>
-                        <h1 className='pb-6 text-xl font-thin tracking-tight lg:text-7xl text-blue-100'>ABOUT ME</h1>
+                        <h1 className='pb-6 text-xl font-thin tracking-tight lg:text-7xl text-blue-100'>ABOUT ME!</h1>
                         
                         <p className=' text-blue-100'>{ABOUT_TEXT}</p>
                     </motion.div>
