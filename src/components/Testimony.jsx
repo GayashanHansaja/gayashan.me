@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const Testimony = () => {
   return (
     <div className='bg-FFD700'>
-       <section className="bg-orange-400 text-white py-16 px-6 lg:px-20">
+       <section className="bg-yellow-500 text-white py-16 px-6 lg:px-20">
       <motion.div
         initial={{x: 100, opacity:0}}
         whileInView={{opacity:1, x:0}}

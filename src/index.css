@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+IN&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
-:root {
+:root{
+  font-family:'Comfortaa', sans-serif;
   
-  --font-family: sans-serif,'Anton', !important;
-  --font-family-secondary: "Playwrite IN", sans-serif !important;
+
 }
+
+/* Apply Anton font to headings
+h1, h2, h3 {
+  font-family: 'Anton', sans-serif;
+}
+
+/* Apply Playwrite IN font to paragraphs */
+/* p {
+  font-family: 'Playwrite IN', cursive;
+} */
+
+/* Optional: Apply to specific classes */
+/* .special-heading {
+  font-family: 'Anton', sans-serif;
+} */
+
+/* .handwritten-text {
+  font-family: 'Playwrite IN', cursive;
+} */ 

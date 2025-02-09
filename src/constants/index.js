@@ -7,11 +7,9 @@ import project4 from "../assets/projects/project-4.jpg";
  */
 export const HERO_CONTENT = `I'm a third-year Software Engineering student at SLIIT and a Full Stack Developer with experience in web and mobile app development.`;
 
-export const ABOUT_TEXT = `I’m Gayashan, a passionate Software Engineering student with a strong interest in mobile and web development. I specialize in building user-friendly applications using React Native, React, and modern web technologies. With experience in both frontend and backend development, I enjoy creating seamless digital experiences that solve real-world problems.
-
-I have worked on projects ranging from mobile applications and websites to full-stack platforms, including an Instagram clone and an e-commerce platform (FarmCart). My expertise includes JavaScript, React Native, Expo, Supabase, Node.js, and MongoDB.
-
-Beyond coding, I’m always eager to learn new technologies, improve performance in applications, and stay updated with industry trends. Currently, I am seeking opportunities to apply my skills in a challenging and collaborative environment.`;
+export const ABOUT_TEXT = `I’m a Software Engineering student passionate about mobile and web development. I specialize in building user-friendly applications with React Native, React, and modern web technologies. With experience in both frontend and backend development, I’ve worked on mobile apps, websites, and full-stack platforms like an Instagram clone and FarmCart (an e-commerce platform). My expertise includes JavaScript, React Native, Expo, Supabase, Node.js, and MongoDB. Always eager to learn, I focus on improving application performance and staying updated with industry trends. Currently, I’m seeking opportunities to apply my skills in a dynamic, collaborative environment.`;
+export const EXPERIENCE_TEXT = `I have experience developing mobile apps, websites, and full-stack platforms, including an Instagram clone and FarmCart. I’ve worked with React Native, React, Node.js, and MongoDB, building scalable and user-friendly applications. I also led two university projects, managing teams of 8 and 4 members, successfully delivering a MERN-stack website in 10 weeks. Additionally, I gained hands-on experience during a three-month startup internship. My projects emphasize performance, usability, and problem-solving, and I continuously explore new technologies to enhance my development skills.`;
+export const RECENT_TEXT = `Recently, I’ve been learning Flutter, building test apps to explore UI design and best practices. Alongside this, I’m improving my JavaScript skills to deepen my understanding of modern web development. I stay updated with industry trends and actively seek opportunities to apply my skills in a professional environment.`;
 
 export const EXPERIENCES = [
   {

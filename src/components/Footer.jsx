@@ -8,9 +8,10 @@ import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { SiMedium } from 'react-icons/si'
 import { BiX } from 'react-icons/bi'
+import SocielIcons from './SocielIcons'
 const Footer = () => {
   return (
-    <footer className='bg-gray-800 px-10 text-white'>
+    <footer className=' px-10 text-white'>
         <div className='grid grid-cols-1 md:grid-cols-4  py-10 gap-x-10'>
             <div>
                 <h1 className='font-bold mb-4'>ABOUT ME</h1>
@@ -37,14 +38,7 @@ const Footer = () => {
             </div>
             <div>
                 <h1 className='font-bold mb-4'>FOLLOW ME HERE</h1>
-                <ul className='flex space-x-5'>
-                    <li><a href="" className='hover:underline'> <FaGithub/></a></li>
-                    <li><a href="" className='hover:underline'> < FaLinkedin/></a></li>
-                    <li><a href="" className='hover:underline'> < SiMedium/></a></li>
-                    <li><a href="" className='hover:underline'> < FaInstagram/></a></li>
-                    <li><a href="" className='hover:underline'> < FaFacebook/></a></li>
-                    <li><a href="" className='hover:underline'> < BiX/></a></li>
-                </ul>
+                <SocielIcons/>
             </div>
         </div>
         <div className=' border-t border-gray-100  py-5'>
